@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cca8d7a135.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Aryan's Portfolio
+            </div>
+            <div class="Right">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="name">Aryan</span>
+
+                <div> and I'm a passionate </div>
+
+                <span id="element"></span>
+            
+                
+            </div>
+
+            <div class="rightsection">
+                <img src="bg.png">
+            </div>
+        </section>
+
+
+        <hr>
+        <section class="about">
+            <div class="conatiner">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="file.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle"> About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis, ad adipisci sapiente
+                            quasi libero aliquid modi illo laudantium soluta quas maxime temporibus. Eos labore ipsam
+                            qui recusandae delectus! Deleniti perferendis tempore illum in ipsa?</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Design Training at ET
+                                    Institute</li>
+                                <li><span>2019 2021</span><br>Team lead at StarApp LLC.</li>
+                                <li><span>2017- 2019</span><br>UI/UX Design Executive at Coin
+                                    Digital Ltd.</li>
+                                <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                                <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ..................servics................... -->
+<hr>
+
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-connectdevelop fa-2xl" style="color: #FFD43B;"></i>
+                <h2>
+                    web design
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a blanditiis provident. Nulla enim saepe necessitatibus adipisci laudantium, cumque sequi voluptatem placeat quaerat?</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gears fa-2xl" style="color: #11b049;"></i>
+                <h2>
+                   UI/UX Design
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a blanditiis provident. Nulla enim saepe necessitatibus adipisci laudantium, cumque sequi voluptatem placeat quaerat?</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code 
+                
+fa-2xl" style="color: #63E6BE;"></i>
+<br>
+                <h2>
+                    app design
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a blanditiis provident. Nulla enim saepe necessitatibus adipisci laudantium, cumque sequi voluptatem placeat quaerat?</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ...........portfolio............ -->
+ <hr>
+ <section class="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3 class="social-media-app">social media app</h3>
+                    <p class="social-media-app-des">the app connect Lorem ipsum dolor<p>
+                    <p class="social-media-app-des"> sit amet consectetur adipisicing elit. </p>
+                    <p class="social-media-app-des">Fugit, provident!</p>
+                    <a class="social-media-app-a" href="#"><i class="fa-solid fa-link fa-xl" style="color: #baa7c1c4;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3 class="social-media-app">social media app</h3>
+                    <p class="social-media-app-des">the app connect Lorem ipsum dolor<p>
+                    <p class="social-media-app-des"> sit amet consectetur adipisicing elit. </p>
+                    <p class="social-media-app-des">Fugit, provident!</p>
+                    <a class="social-media-app-a" href="#"><i class="fa-solid fa-link fa-xl" style="color: #baa7c1c4;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3 class="social-media-app">social media app</h3>
+                    <p class="social-media-app-des">the app connect Lorem ipsum dolor<p>
+                    <p class="social-media-app-des"> sit amet consectetur adipisicing elit. </p>
+                    <p class="social-media-app-des">Fugit, provident!</p>
+                    <a class="social-media-app-a" href="#"><i class="fa-solid fa-link fa-xl" style="color: #baa7c1c4;"></i></a>
+                </div>
+            </div>
+                
+        </div>
+        <a href="#" class="btn">See More</a>
+        <hr>
+ </section>
+ <!-- ..........contact........ -->
+  <section class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="conatct-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-envelope" style="color: #f0f0f0;"></i>  aryanaakash2005@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #f7f7f7;"></i>    +91 9166536157</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #edeff2;"></i></a>
+                    <a href="https://www.linkedin.com/in/aryan-bhargava-333789285/"><i class="fa-brands fa-linkedin" style="color: #fcfcfc;"></i></a>
+                    <a href="https://www.youtube.com/channel/UCbo6369RWmb-Rygt3CxIsJQ"><i class="fa-brands fa-youtube" style="color: #f5f7fa;"></i></a>
+                    <a href="https://github.com/aryanb1906"><i class="fa-brands fa-github" style="color: #f9fafb;"></i></a>
+                    <a href="https://gdsc.community.dev/u/m8efmx/#/about"><i class="fa-brands fa-google" style="color: #f7f9fd;"></i></a>
+                </div>
+                <a href="Aryan Bhargava Resume (2).pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="conatct-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span class="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright" style="color: #f2f2f2;"></i> Aryan's Portfolio </p>
+        <br>
+        <p>Made with <i class="fa-solid fa-heart" style="color: #f10707;"></i> By Aryan Bhargava</p>
+    </div>
+  </section>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Develpoer','Web Designer'],
+            typeSpeed: 30,
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add
+        }
+    </script>
+    
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz384dSlmQB9kHhKwIiNVOenDCyGAf1dL_4zgU_HnO32E6uov_DnxUqAtThTXPm6rbN/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementsByClassName("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+          for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+          }
+          for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      
+</body>
+
+</html>
